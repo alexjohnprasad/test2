@@ -41,28 +41,78 @@ body {font-family: "Lato", sans-serif}
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
+    
+    
   <!-- Automatic Slideshow Images -->
-
-
-<!DOCTYPE html>
-<html>
 
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-.mySlides {display:none;}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 </style>
 </head>
-
 <body>
-    <div class="w3-display-middle"style="margin:auto;width:40%">
-    <h1 class="w3-jumbo w3-animate-top"style="color:red;">Adore Beauty and Spa</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">We Care you</p>
-  </div>
+<div class="container">
+  <style>
+body,h1 {font-family: "Raleway", Helvetica}
+
+div.example {
+  
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size:8vw; font-weight: bold; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+</style>
+<body>
+
+
 <div class="w3-content w3-section" style="max-width:100%">
+  
   <img class="mySlides" src="https://image.ibb.co/h5Kowz/3.jpg" style="width:100%">
   <img class="mySlides" src="https://image.ibb.co/g0jcpK/2.jpg" style="width:100%">
   <img class="mySlides" src="https://image.ibb.co/cRbwie/1.jpg" style="width:100%">
@@ -86,8 +136,13 @@ function carousel() {
 </script>
 
 </body>
-</html>
 
+ 
+  <h1 class="centered""w3-jumbo w3-animate-top"style="font-size:10vw;">Adore Beauty and Spa</div>
+</div>
+
+
+</body>
 
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
@@ -132,7 +187,7 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
   <i class="fa fa-pinterest-p w3-hover-opacity"></i>
   <i class="fa fa-twitter w3-hover-opacity"></i>
   <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Designed by <a href="https://www.alexjohnprasad.com" target="_blank">Xela</a></p>
+  <p class="w3-medium">Designed by <a href="http://www.alexjohnprasad.com" target="_blank">Xela</a></p>
 </footer>
 
 <script>
